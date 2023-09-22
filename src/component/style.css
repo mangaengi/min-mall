@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Song+Myung&display=swap');
+
+* {font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Song Myung', serif;}
+
+/* Heritage */
+
+.gnb {height: 100px; position: relative;}
+.gnb .me-auto {margin: 20px 0 0 30px; padding: 0 10px; font-size: 20px; font-weight:  600; }
+.gnb .me-auto a {margin: 0 20px;}
+
+/* search */
+.search  {height: 500px; position: absolute; right: 0; top: 40%;}
+.search img {width: 20px; height: 20px; margin-right: 10px;}
+.search input {border: none; border-bottom: 1px solid rgba(0,0,0,0.4); padding: 5px 10px;}
+.search input:focus {outline: none;}
+
+/* product-list */
+.product-list .product-img {width: 280px; height: 300px;}
+.product-list .product-img img {width: 100%; height: 100%;}
