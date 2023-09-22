@@ -5,8 +5,8 @@ import { useDispatch, useSelector } from 'react-redux'
 import { useSearchParams } from 'react-router-dom'
 import { productAction } from '../redux/actions/productAction'
 
-const Heritage = () => {
-    const productList = useSelector(state=>state.product.productList)
+const ProductAll = () => {
+    const productList = useSelector(state=>state.productList)
     const [query, setQuery] = useSearchParams();
     const dispatch = useDispatch();
     const getProducts = () => {
@@ -32,5 +32,4 @@ const Heritage = () => {
   )
 }
 
-export default Heritage
-
+export default ProductAll
