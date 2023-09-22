@@ -9,7 +9,7 @@ const ProductAll = () => {
         <Container>
             <Row>
                 {
-                    productList.map((menu ,id) =>(
+                    productList.map((menu ,idx) =>(
                         <Col lg={3} key={idx}>
                             <ProductCard item={menu} />
                         </Col>
